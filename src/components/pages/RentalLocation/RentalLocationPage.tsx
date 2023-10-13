@@ -225,7 +225,7 @@ const RentalInfo = () => {
             <BottomSheet
               isBottomSheetOpen={isBottomOpen}
               setIsBottomSheetOpen={setIsBottomOpen}
-              snapPoints={[280, 280, 0]}
+              snapPoints={[300, 300, 0]}
               _className="hidden lg:block"
             >
               <MobileCard storeDetail={storeDetail} />
